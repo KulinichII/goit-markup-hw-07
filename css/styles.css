@@ -498,12 +498,13 @@ border-radius: 4px;
 }
 .section-twoo {
 display: flex;
+flex-wrap: wrap;
 gap: 24px;
 }
 
 
 .section-dwa {
-width: 264px;
+width: 100%;
 }
 
 
@@ -519,7 +520,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--main-text-color);
-max-width: 264px;
+width: 100%;
 margin-top: 8px;
 }
 /* 3 */
@@ -993,6 +994,10 @@ margin-top: 8px;
         .container {
             width: 396px;
         }
+        .section-dwa {
+            width: 396px;
+        }
+       
     }
     @media screen and (min-width: 768px) {
         .container {
@@ -1007,6 +1012,18 @@ margin-top: 8px;
             column-gap: 24px;
             row-gap: 72px;
     }
+    .section-dwa {
+        width: 356px;
+    
+    }
+    .section-twoo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
 }
 @media screen and (min-width: 1158px) {
     .container {
@@ -1014,9 +1031,50 @@ margin-top: 8px;
     }
     .lists {
         display: flex;
-    
         flex-wrap: wrap;
         gap: 24px;
        
     }
+    .section-dwa {
+        width: 254px;
+}
+
+.section-dwa-img1 {
+    width: 264px;
+height: 112px;
+background: #F4F4FD;
+background-image: url(../images/antenna1.svg);
+background-repeat: no-repeat;
+background-position: center;    
+border-radius: 4px;
+}
+
+
+.section-dwa-img2 {
+    width: 264px;
+height: 112px;
+background: #F4F4FD;
+background-image: url(../images/clock1.svg);
+background-repeat: no-repeat;
+background-position: center;    
+border-radius: 4px;
+}
+.section-dwa-img3 {
+    width: 264px;
+height: 112px;
+background: #F4F4FD;
+background-image: url(../images/diagram1.svg);
+background-repeat: no-repeat;
+background-position: center;    
+border-radius: 4px;
+}
+.section-dwa-img4 {
+    width: 264px;
+height: 112px;
+background: #F4F4FD;
+background-image: url(../images/astronaut1.svg);
+background-repeat: no-repeat;
+background-position: center;    
+border-radius: 4px;
+}
 }
