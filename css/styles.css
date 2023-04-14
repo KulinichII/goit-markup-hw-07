@@ -1020,23 +1020,32 @@ margin-top: 8px;
 /* *********** @media screen ************** */
 
 
-    @media screen and (min-width: 428px) {
+    @media screen and (min-width: 320px) {
         .container {
-            width: 396px;
+            min-width: 426px;
         }
         .section-dwa {
-            width: 396px;
+            width: 426px;
         }
         .section-five {
             width: 428px;
         }
+       .container-three {
+        display: none;
+       }
+       .footer-dno-logo {
+        width: 264px;
+       }
        
     }
 
 
     @media screen and (min-width: 768px) {
         .container {
-            width: 768px;
+            min-width: 766px;
+        }
+        .container-three {
+            display: none;
         }
 
         .lists {
@@ -1059,6 +1068,8 @@ margin-top: 8px;
         column-gap: 24px;
         row-gap: 72px;
     }
+  
+    
 
          /* *****   5    ******* */
 
@@ -1082,25 +1093,40 @@ margin-top: 8px;
           .footer-dno {
             display: flex;
             align-items: center;
-            width: 768px;   
+           
             
+          }
+          .footer-table {
+            display: flex;
+            align-items: center;
           }
           
           .footer-dno-soc {
-        
             width: 208px;
-
-           
+          }
+          .footer-modal-input {
+            width: 290px;
           }
           
           .footer-dno-logo {
-            display: flex;
-            flex-wrap: wrap;
             max-width: 264px;
             margin-right: 24px;
           }
+          .footer-dno-zogo {
+            margin-top: 0;  
+          }
+
+          .footer-dno-email {
+           width: 496px;
+          }
 
           .footer-link {
+            margin-right: auto;
+          }
+          .footer-btn {
+           margin-top: 0;
+          }
+          .footer-dno-label {
             margin-right: auto;
           }
           
@@ -1110,7 +1136,7 @@ margin-top: 8px;
 
 @media screen and (min-width: 1158px) {
     .container {
-        width: 1158px;
+        min-width: 1158px;
     }
     .lists {
         display: flex;
@@ -1165,6 +1191,15 @@ border-radius: 4px;
 
 /* ******.footer-****** */
 
+.footer-dno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-table {
+    margin-right: 0;
+}
+
 .footer-dno-links {
     display: flex;
     align-items: center;
@@ -1187,9 +1222,7 @@ border-radius: 4px;
   .footer-dno-soc {
     margin-right: 80px;
   }
-  .footer-dno-label {
-    margin-top: 0;
-  }
+  
   .footer-btn {
     margin-top: 0;
   }
@@ -1201,5 +1234,13 @@ border-radius: 4px;
     margin-right: 120px;
    
   }
+  .container-three {
+    display: contents;
+  }
+  .footer-dno-label {
+    margin-top: 0;
+  }
+
+
 }
     
