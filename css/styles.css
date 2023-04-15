@@ -527,6 +527,7 @@ margin-top: 8px;
 }
 .lists-three {
     display: flex;
+    justify-content: center;
 gap: 24px;
 }
 .three-list {
