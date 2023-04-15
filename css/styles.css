@@ -178,15 +178,15 @@ color: var(--main-title-color);
     background-color: var(--main-title-color);
     background-image:linear-gradient(rgba(46, 47, 66, 0.7),
      rgba(46, 47, 66, 0.7)),
-     url(../images/people-office1.jpg);
+     url(../images/momail.jpg);
      max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
-    padding-top:  188px;
-    padding-bottom: 188px;
+    padding-top:  112px;
+    padding-bottom: 112px;
     
 }
 .backdrop {
@@ -450,13 +450,13 @@ width: 8px;
 
 
 .section-one-header{
-font-size: 56px;
+font-size: 36px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--main-body-color);
 margin-bottom: 48px;
-max-width: 496px;
+max-width: 320px;
 margin-left: auto;
 margin-right: auto;
 }
@@ -1054,6 +1054,22 @@ margin-top: 8px;
         .container {
             max-width: 766px;
         }
+
+        .sectio-one-odin{
+            background-color: var(--main-title-color);
+            background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+             rgba(46, 47, 66, 0.7)),
+             url(../images/tablefon.jpg);
+             max-width: 1440px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top:  112px;
+            padding-bottom: 108px;
+        }
+
         .container-three {
             display: none;
         }
@@ -1117,7 +1133,7 @@ margin-top: 8px;
           }
           .footer-table {
             display: flex;
-            align-items: center;
+           
           }
           
           .footer-dno-soc {
@@ -1157,6 +1173,24 @@ margin-top: 8px;
     .container {
         max-width: 1158px;
     }
+
+
+    .sectio-one-odin{
+        background-color: var(--main-title-color);
+        background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+         rgba(46, 47, 66, 0.7)),
+         url(../images/people-office1.jpg);
+         max-width: 1440px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:  188px;
+        padding-bottom: 188px;
+    }
+
+
     .lists {
         display: flex;
         flex-wrap: wrap;
