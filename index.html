@@ -32,20 +32,28 @@ integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8
         <li class="header-adr__item"> <a class="header-adr-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
     </ul>
 </address>
-      <button type="button" class="button-modal-burger" data-modal-open>ponchik</button>
-      <div class="backdrop-header is-hidden" data-modal>
+
+
+      <button type="button" class="button-modal-burger" data-menu-open>ponchik</button>
+      <div class="backdrop-header is-hidden" data-menu>
         <div class="modal-header">
-            <button type="button" class="button-modal" data-modal-close> <svg class="section-one-icon">
+             <button type="button" class="button-modal" data-menu-close> <svg class="section-one-icon">
                         <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
                     </svg> 
                 </button>
+            <div class="header-modal-reveti">
+               <div class="header-modal-fle">
+ 
                 <ul class="header-list-modal list">
                     <li class="header-modal__item"><a class="header-modal__link link" href="./index.html">Studio</a></li>
                     <li class="header-modal__item"><a class="header-modal__link link" href="./portfolio.html">Portfolio</a></li>
                     <li class="header-modal__item"><a class="header-modal__link link" href="">Contacts</a></li>
                 </ul>
             </nav>
-            <address class="header-address-modal ">
+               </div>
+
+               <div class="header-modal-flex">
+ <address class="header-address-modal ">
                 <ul class="header-adr__list list ">
                     <li class="header-modal-item"> <a class="header-modal-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                     <li class="header-modal-item"> <a class="header-modal-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
@@ -92,6 +100,10 @@ integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8
            </ul>
                  </div>
             </address>
+               </div>
+            </div>
+          
+           
         </div>
        </div>
 </div>
@@ -599,5 +611,6 @@ integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8
 </footer> 
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
