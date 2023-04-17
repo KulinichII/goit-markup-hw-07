@@ -1263,6 +1263,21 @@ margin-top: 8px;
         .container {
             max-width: 426px;
         }
+        .sectio-one-odin{
+            background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+             rgba(46, 47, 66, 0.7)),
+             url(../images/tablefon.jpg);
+          
+        }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .first-section {
+            background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+            url(../images/table-2x.jpg);
+        }
+      }
 
         .header-modal-list {
             gap: 24px;
@@ -1347,19 +1362,19 @@ margin-top: 8px;
     
 
         .sectio-one-odin{
-            background-color: var(--main-title-color);
             background-image:linear-gradient(rgba(46, 47, 66, 0.7),
              rgba(46, 47, 66, 0.7)),
-             url(../images/tablefon.jpg);
-             max-width: 1440px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            margin-left: auto;
-            margin-right: auto;
-            padding-top:  112px;
-            padding-bottom: 108px;
+             url(../images/people-office1.jpg);
+          
         }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .first-section {
+          background-image: var(--first-gradient),
+            url(../images/people-office-2x.jpg);
+        }
+      }
 
         .section-thee {
             display: none;
