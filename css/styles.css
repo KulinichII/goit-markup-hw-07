@@ -360,6 +360,10 @@ margin-bottom: 16px;
     position: relative;
     margin-bottom: 8px;
 }
+
+.span-modal {
+    flex-shrink: 0;
+}
 .modal-input-icon {
     position: absolute;
     width: 18px;
@@ -1260,7 +1264,15 @@ margin-top: 8px;
 
 /* *********** @media screen ************** */
 
-
+@media screen and (min-width: 320px) and (max-width: 428px){
+    .header-modal-link {
+        font-size:  20px;
+        
+    }
+    .header-modal-list {
+        gap: 24px;
+    }
+}
     @media screen and (min-width: 300px) {
         .container {
             max-width: 426px;
@@ -1280,13 +1292,9 @@ margin-top: 8px;
             url(../images/mobil-2x.jpg);
         }
       }
-      .header-modal-link {
-        font-size:  20px;
-    }
+     
 
-        .header-modal-list {
-            gap: 24px;
-        }
+        
         .header-cont {
             display: flex;
             justify-content: space-between;
