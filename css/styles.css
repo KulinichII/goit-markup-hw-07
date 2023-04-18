@@ -210,7 +210,7 @@ color: #2E2F42;
 
 .header-modal-link {
     font-weight: 500;
-font-size: 20px;
+font-size: 36px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #434455;
@@ -222,7 +222,17 @@ line-height: 1.33;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #4D5AE5;
+ 
 
+}
+
+.header-list__link.caren::after{
+content: '';
+background: #4d5ae5;
+
+}
+.caren {
+    color: #4D5AE5;
 }
 .header-img-text {
     margin-top: 48px;
@@ -1269,6 +1279,9 @@ margin-top: 8px;
             url(../images/mobil-2x.jpg);
         }
       }
+      .header-modal-link {
+        font-size:  20px;
+    }
 
         .header-modal-list {
             gap: 24px;
@@ -1358,6 +1371,9 @@ margin-top: 8px;
         }
         .section-one-header {
             margin-bottom: 36px;
+        }
+        .header-modal-link {
+            font-size: 36px;
         }
 
     
